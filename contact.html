@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        background-image: url("/picture/1491563.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: auto;
+      }
+      * {
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+      }
+      ul {
+        display: flex;
+        gap: 50px;
+        margin-right: 50px;
+      }
+      header {
+        display: flex;
+        z-index: 9999;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 70px;
+        backdrop-filter: blur(30px);
+        box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+        border: 1.5px solid rgba(255, 255, 255, 0.18);
+        position: sticky;
+        top: 0;
+      }
+      .logo a {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgba(44, 244, 33, 0.884);
+        margin-left: 30px;
+        color: black;
+      }
+      li a {
+        font-size: 20px;
+        color: white;
+      }
+      ul li:nth-child(4) {
+        border-bottom: 3px solid red;
+      }
+      li a:hover {
+        color: blue;
+      }
+      section {
+        width: 100%;
+        height: 100vh;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .contact-title {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .model {
+        box-shadow: 5px 5px 20px black;
+        border-radius: 20px;
+        backdrop-filter: blur(30px);
+        height: 500px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+      }
+      .socia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 60px;
+      }
+      .icon {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+      a {
+        color: white;
+      }
+      footer {
+        display: flex;
+        z-index: 9999;
+        justify-content: center;
+        backdrop-filter: blur(30px);
+        box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+        border: 1.5px solid rgba(255, 255, 255, 0.18);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="logo"><a href="About_Me.html">Personal Web Pages</a></p>
+      <nav>
+        <ul>
+          <li><a href="About_Me.html">About Me</a></li>
+          <li><a href="Subject.html">Subjects Taken</a></li>
+          <li><a href="enroll.html">Subjects Currently Enrolled</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+          <li><a href="favorites.html">My Favorites</a></li>
+          <li><a href="Gallary.html">Gallary</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="model">
+        <p class="contact-title">Contact</p>
+        <div class="con">
+          <div class="socia">
+            <div class="icon">
+              <img src="/picture/communication (1).png" alt="Facebook" />
+              <p>
+                <a href="https://www.facebook.com/rhinemarcosolanioquibra/"
+                  >Facebook</a
+                >
+              </p>
+            </div>
+            <div class="icon">
+              <img src="picture/gmail.png" alt="Gmail" />
+              <p>
+                <a href="mailto:kulikot2k15@gmail.com">kulikot2k15@gmail.com</a>
+              </p>
+            </div>
+            <div class="icon">
+              <img src="picture/phone-call.png" alt="Phone" />
+              <p><a href="tel:+639167658548">+63 916 765 8548</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h3>&#169;2023 - 2024 | All Rigth Reserved</h3>
+    </footer>
+  </body>
+</html>
